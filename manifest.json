@@ -1,9 +1,9 @@
 {
   "update_url": "https://clients2.google.com/service/update2/crx",
-  "name": "Widen code block for esa",
+  "name": "Wide column mode for esa",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Widen code block for esa",
+  "description": "Wide column mode for esa",
   "author": "Toshinari Suzuki",
   "homepage_url": "http://suzuki.toshinari.jp",
   "icons": {
