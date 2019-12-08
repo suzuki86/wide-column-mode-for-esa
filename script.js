@@ -19,13 +19,13 @@ function handleEnablement() {
 }
 
 function enableStyles() {
-  document.getElementsByClassName('main-column')[0].style.maxWidth = '100%';
-  document.getElementsByClassName('main-column')[0].style.width = '100%';
-  document.getElementsByClassName('right-column')[0].style.display = 'none';
+  document.getElementsByClassName('layout-post__main')[0].style.maxWidth = '100%';
+  document.getElementsByClassName('layout-post__main')[0].style.width = '100%';
+  document.getElementsByClassName('layout-post__toc toc')[0].style.display = 'none';
 }
 
 function disableStyles() {
-  document.getElementsByClassName('main-column')[0].style.maxWidth = '800px';
-  document.getElementsByClassName('main-column')[0].style.width = '800px';
-  document.getElementsByClassName('right-column')[0].style.display = 'block';
+  document.getElementsByClassName('layout-post__main')[0].style.maxWidth = '890px';
+  document.getElementsByClassName('layout-post__main')[0].style.width = '890px';
+  document.getElementsByClassName('layout-post__toc toc')[0].style.display = 'block';
 }
